@@ -1,0 +1,48 @@
+@use "../abstract/colors.scss";
+@use "../abstract/fonts.scss";
+
+.article{
+    font-family: fonts.$family;
+    .articleTitle{
+        color: colors.$primary;
+        line-height: 1.4em;
+    }
+    .mainTitle{
+        color: colors.$primary;
+        padding: 0.3em 0 1.5em 0;
+    }
+    .heading{
+        color: colors.$highlight;
+        font-size: 0.7rem;
+    }
+    .mainParagraph{
+        color: colors.$secondary;
+        font-size: 0.8rem;
+        margin: 0.5em 0 4em 0;
+    }
+    .heroImg-container{
+        width: 100%;
+        height: 50em;
+        .heroImg{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 2em;
+        }
+        figcaption{
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 1em 0;
+        }
+    }
+}
+
+#articleSeparator{
+    margin: 4em 0;
+    opacity: 0.4;
+}
+
+#footerSeparator{
+    margin: 2em 0;
+    opacity: 0.4;
+}

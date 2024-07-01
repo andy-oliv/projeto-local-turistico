@@ -1,0 +1,27 @@
+@use "./abstract/colors.scss";
+@use "./abstract/fonts.scss";
+@use "./components/lists.scss";
+@use "./components/sections.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3em;
+}
+
+.lastParagraph{
+    font-family: fonts.$family;
+    font-size: 0.8em;
+    color: colors.$secondary;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: colors.$secondary;
+    margin: 3em 0 2em 0;
+}

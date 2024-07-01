@@ -1,0 +1,69 @@
+@use "../abstract/colors.scss";
+@use "../abstract/fonts.scss";
+
+.bodyOfText-imgContainer{
+    width: 100%;
+    height: 28em;
+    #img1{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 45%;
+        border-radius: 2em;
+    }
+    #img2{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border-radius: 2em;
+    }
+    #img3{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 15% 85%;
+        border-radius: 2em;
+    }
+}
+
+ol{
+    font-family: fonts.$family;
+    li{
+        font-weight: bold;
+        margin: 1em 0 0.5em 2em;
+    }
+    .mainParagraph{
+        font-weight: 400;
+        font-size: 0.8rem;
+        color: colors.$secondary;
+        width: 95%;
+    }
+}
+
+ul{
+    font-family: fonts.$family;
+    list-style: disc;
+    margin: 2em 0;
+    font-size: 0.8rem;
+    li{
+        margin-left: 2em;
+        line-height: 0.5em;
+    }
+    .tip{
+        color: colors.$secondary;
+    }
+    .history{
+        color: colors.$history;
+    }
+    .couple{
+        color: colors.$couple;
+    }
+    .family{
+        color: colors.$family;
+    }
+    .budget{
+        color: colors.$budget;
+    }
+}
+

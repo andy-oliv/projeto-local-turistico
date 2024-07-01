@@ -9,6 +9,6 @@
 
 Desafio prático do módulo <em>"Iniciando o HTML e CSS"</em> do curso Fullstack da Rocketseat
 
-O desafio consistia na criação de uma página de informações turísticas sobre a cidade de Busan na Coréia do Sul.
+O desafio consistia na criação de uma página de informações turísticas sobre a cidade de Busan na Coréia do Sul, conforme o projeto do figma disponibilizado na plataforma do curso.
 
-
+![project-img](./public/images/screencapture-127-0-0-1-5500-Rocketseat-Fullstack-projeto-local-turistico-src-index-html-2024-07-01-11_51_47.png)
